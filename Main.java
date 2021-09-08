@@ -9,6 +9,8 @@ class Fancy {
 public class Main {
   public static void main(String[] args) {
     Fancy fancy = new Fancy();
-    fancy.print("This is a fancy project.");
+    String str = "This is a fancy project.";
+
+    fancy.print(str);
   }
 }
